@@ -1,0 +1,16 @@
+[project]
+name = "data-orchestrator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "prefect",
+    "beautifulsoup4",
+    "requests",
+    "sqlalchemy",
+    "psycopg2-binary",
+    "lxml",
+    "cloudscraper",
+    "importlib-metadata>=9.0.0",
+]
